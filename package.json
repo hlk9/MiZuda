@@ -1,0 +1,23 @@
+{
+  "name": "mizuda",
+    "version": "0.1.0",
+    "description": "Phần mềm học lập trình Pascal",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HLK9/MiZuda.git"
+  },
+  "keywords": [],
+  "author": "CMB Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HLK9/MiZuda/issues"
+  },
+  "homepage": "https://github.com/HLK9/MiZuda#readme",
+  "devDependencies": {
+    "electron": "^11.2.1"
+  }
+}

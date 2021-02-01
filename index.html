@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        MiZuda
+    </title>
+</head>
+
+<style>
+
+button {
+  font-family: 'Raleway', Arial, sans-serif;
+  border: none;
+  background-color: #5666a5;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 30px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 46px;
+  font-weight: 400;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  border-radius: 23px;
+  letter-spacing: 2px;
+  
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+button:before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: inherit;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+button:after {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: 5px solid #5666a5;
+  content: '';
+  border-radius: inherit;
+}
+button:hover,
+button.hover {
+  background-color: #5666a5;
+  color: #ffffff;
+}
+button:hover:before,
+button.hover:before {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 0.25;
+}
+
+
+p{
+    padding: 10%;
+    padding-right: 10%;
+    padding-top:unset;
+    font-size:larger;
+    
+    
+}
+ a{
+     text-decoration: none;
+ }
+
+
+</style>
+
+
+<body style="background-image: linear-gradient(to right,rgb(39, 153, 187),pink);">
+    <h1 align="center" style="color:midnightblue">
+        Chào mừng tới chương trình học Pascal
+    </h1>
+    <h2 style="color: rgb(100, 62, 62);" align="center">
+        Welcome to MiZuda
+    </h2>
+    <center>
+        <img src="src/Cart.png" style="width:500px;height:unset;">
+    </center>
+    <ul align="center">
+        <a href="Fol/Menu.html">
+        
+          <button>
+            Học ngay
+        </button>
+        </a>
+      
+        <button>
+            Thoát
+        </button>
+    </ul>
+    <h3 align="center" >
+        Thông tin
+    </h3>
+    <p style="padding-bottom: unset;">
+        Đây là phần mềm tích hợp trong GoPas, nhưng không nhất thiết bạn phải chạy GoPas mới sử dụng được, phần 
+        mềm giúp cho các bạn trong việc học lập trình Pascal trở nên nhanh chóng và thuận tiên hơn.
+         Các tài liệu được tổng hợp, chắt lọc kỹ càng sao cho nó trở nên dễ hiểu nhất đối với các bạn. Cảm ơn đã sử dụng MiZuda!
+    </p>
+    <h3 align="center" style="padding-top: unset;">
+        Thông tin về MiZuda
+    </h3>
+    <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" >
+        MiZuda được viết bằng khung Electron. Đây là một khung phần mềm mã nguồn mở được phát triển và duy trì bởi GitHub. Nó cho phép phát triển các ứng dụng GUI trên máy tính để bàn sử dụng công nghệ web.
+        Phần mềm này vẫn còn nhiều lỗi nhỏ, mong các bạn có thể bỏ qua. Cảm ơn!
+    </p>
+    
+   
+
+    
+</body>
