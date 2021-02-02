@@ -4,7 +4,9 @@
   "description": "Phần mềm học lập trình Pascal",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "win32"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,13 @@
   },
   "homepage": "https://github.com/HLK9/MiZuda#readme",
   "devDependencies": {
-    "electron": "^11.2.1"
+    "electron": "^11.2.1",
+    "electron-builder": "^22.9.1"
+  },
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "Learn"
+    }
   }
 }

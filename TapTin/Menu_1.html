@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="../ThietKe/Menuchon.css">
+</head>
+<style>
+  .nut {
+    font-family: 'Raleway', Arial, sans-serif;
+    border: none;
+    background-color: #5666a5;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0px 20px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    line-height: 46px;
+    font-weight: 400;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    border-radius: 23px;
+    letter-spacing: 2px;
+    
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .nut:before {
+    opacity: 0;
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: inherit;
+    background-color: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  .nut:after {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border: 5px solid #5666a5;
+    content: '';
+    border-radius: inherit;
+  }
+  .nut:hover,
+  .nut.hover {
+    background-color: #5666a5;
+    color: #ffffff;
+  }
+  .nut:hover:before,
+  .nut.hover:before {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 0.25;
+  }
+  :root{
+    --background-dark: #2d3548;
+    --text-light: rgba(255,255,255,0.6);
+    --text-lighter: rgba(255,255,255,0.9);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 1200px;
+  }
+</style>
+<body>
+  <div class="container">
+    <div class="items">
+      <div class="items-head">
+        <p>Giới thiệu</p>
+        <hr>
+      </div>
+      
+      <div class="items-body">
+
+
+        <div class="items-body-content">
+          <span>
+            <a href="GioiThieu/Pascal.html">
+              Vài nét về ngôn ngữ lập trình Pascal
+            </a> </span>
+          <i class="fa fa-angle-right"></i>
+        </div>
+        <div class="items-body-content">
+          <span><a href="GioiThieu/Moitruong.html">Cài đặt môi trường
+          </a></span>
+          <i class="fa fa-angle-right"></i>
+        </div>
+        <div class="items-body-content">
+          <span><a href="GioiThieu/Cautruc.html">Cấu trúc chương trình
+          </a></span>
+          <i class="fa fa-angle-right"></i>
+        </div>
+        <center>
+          <a href="Menu.html"><button class="nut">Quay lại Menu</button></a>
+        </center>
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
